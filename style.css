@@ -1,0 +1,15 @@
+body {
+    background-color: #a9cddd;
+    font-family:monospace;
+    font-size: larger;
+}
+
+.titles {
+    color:#122d3d;
+    font-family:'Courier New', Courier, monospace;
+}
+
+ .logo {
+    color: #5a0e0e;
+    font-family:'Courier New', Courier, monospace;
+ }
