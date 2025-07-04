@@ -1,7 +1,7 @@
 body {
     background-color: #a9cddd;
     font-family:monospace;
-    font-size: larger;
+    font-size: 25px;
 }
 
 .titles {
@@ -9,7 +9,11 @@ body {
     font-family:'Courier New', Courier, monospace;
 }
 
- .logo {
+ #logo {
     color: #5a0e0e;
     font-family:'Courier New', Courier, monospace;
+    background-color: #76a1b8;
+    text-align: center;
  }
+
+ 
