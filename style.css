@@ -1,24 +1,30 @@
 body {
-    background-color: #a9cddd;
+    background-color: #99b8c5;
     font-family:monospace;
-    font-size: 50px;
-    text-align: center;
+font-size: 6vw;
+text-align: center;
 }
 
 .titles {
     color:#122d3d;
     font-family:'Courier New', Courier, monospace;
+    
 }
 
  #logo {
     color: #5a0e0e;
-    font-family:'Courier New', Courier, monospace;
-    background-color: #76a1b8;
-    text-align: center;
+    font-family: 'monospace';
+    background-color: rgba(95,144,177, 0.8);
     border: 10px solid #5a0e0e;
+    font-size: 6vw;
 }
 
 .lists {
     list-style-position: inside;
-    text-align: center;
+   text-align: center;
+}
+
+hr {
+    margin-top: 10%;
+    border-color: #5a0e0e;
 }
