@@ -19,7 +19,7 @@ text-align: center;
     border: 10px solid #5a0e0e;
     font-size: 100%;
     padding: 100px;
-    
+    display: flex;
 }
 
 .lists {
@@ -39,54 +39,34 @@ hr {
     height: 5px;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-  margin: 0 auto;
-}
-
-.section {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-}
-
-@media (max-height: 800px) {
-.flex-container {
-    flex-direction: row;
- gap: 50px;
- justify-content: center;
- 
-}
-
-.section {
-    flex-direction: column;
-    min-width: 200px;
-    font-size: 1.4rem
-}
-
 .line {
     position: absolute;
     height: 0;
 }
-}
+
 
 @media (max-width: 900px) {
     #logo {
         font-size: 5vw;
-       padding: 40px;
-
+       
+      flex-direction: row;
     }
 
     body {
-        font-size: 2.0rem;
+        font-size: 2.2rem;
         
     }
 }
 
 @media (max-width: 500px) {
    body {
-    
-    min-width: 300px;
+    min-width: 500px;
+    font-size: 3.0rem;
+   }
+
+   #logo {
+    font-size: 65%;
+    padding: 15%;
+    margin-right: 8px;
    }
 }
